@@ -1,0 +1,51 @@
+.header{
+background-color: red;
+display: flex;
+flex-direction: row;
+color:darkgoldenrod;
+justify-content:space-evenly;
+align-items:center;
+}
+
+.Marks_Lenin_USSR{
+display: flex;
+flex-direction: column;
+}
+
+.logo{
+    flex-grow:0;
+    flex-basis:7.5%;
+}
+
+.rech{
+color:darkgoldenrod;
+display:flex;
+flex-direction:column;
+
+}
+
+.fone{
+    z-index:-100;
+    flex-basis:100%;
+}
+
+.we{
+background-color: red;
+display: flex;
+flex-direction: row;
+color:darkgoldenrod;
+justify-content:center;
+align-items:center;
+}
+
+@media(max-width: 428px){
+    html {
+      max-width: 428px;
+   }
+}
+
+@media(max-height: 926px){
+    html {
+       max-height: 926px;
+   }
+}
